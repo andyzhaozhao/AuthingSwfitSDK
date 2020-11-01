@@ -1,0 +1,6 @@
+framework module AuthingSwfitSDK {
+  umbrella header "AuthingSwfitSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

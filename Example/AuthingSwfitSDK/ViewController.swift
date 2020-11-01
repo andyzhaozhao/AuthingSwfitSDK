@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import AuthingSwfitSDK
 
 class ViewController: UIViewController {
 
+//    let authingClient = AuthingClient()
     override func viewDidLoad() {
         super.viewDidLoad()
+//        authingClient
         // Do any additional setup after loading the view, typically from a nib.
     }
 
