@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'AuthingSwfitSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AuthingSwfitSDK.'
-
+  s.summary          = 'AuthingSwfitSDK. zhaozhao test for https://authing.cn'
+  s.swift_version    = '5.3'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+AuthingSwfitSDK. zhaozhao test for https://authing.cn测试没有问题后删除，后续移交到authing仓库
                        DESC
 
   s.homepage         = 'https://github.com/andyzhaozhao/AuthingSwfitSDK.git'

@@ -11,7 +11,7 @@ import AuthingSwfitSDK
 
 class ViewController: UIViewController {
 
-//    let authingClient = AuthingClient()
+    let authingClient = AuthingClient()
     override func viewDidLoad() {
         super.viewDidLoad()
 //        authingClient
