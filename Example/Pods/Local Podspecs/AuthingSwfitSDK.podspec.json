@@ -1,9 +1,10 @@
 {
   "name": "AuthingSwfitSDK",
   "version": "0.1.0",
-  "summary": "A short description of AuthingSwfitSDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/andy_zhaozhao@hotmail.com/AuthingSwfitSDK",
+  "summary": "AuthingSwfitSDK. zhaozhao test for https://authing.cn",
+  "swift_versions": "5.3",
+  "description": "AuthingSwfitSDK. zhaozhao test for https://authing.cn测试没有问题后删除，后续移交到authing仓库",
+  "homepage": "https://github.com/andyzhaozhao/AuthingSwfitSDK.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,7 +17,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "AuthingSwfitSDK/Classes/**/*"
+  "source_files": "AuthingSwfitSDK/Classes/**/*",
+  "swift_version": "5.3"
 }

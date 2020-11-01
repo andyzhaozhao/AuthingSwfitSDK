@@ -1,7 +1,7 @@
 import Foundation
 
-public class AuthingClient{
-    func testaaa() -> String {
+public class AuthingClient: NSObject{
+    public func testaaa() -> String {
         return "afdasdfasdf"
     }
 }

@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     let authingClient = AuthingClient()
     override func viewDidLoad() {
         super.viewDidLoad()
-//        authingClient
+//        authingClient.
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AuthingSwfitSDK: cffa72163a40286e1178e79990f3d64b994a1b4f
+  AuthingSwfitSDK: 6d55767e6c1483e9986b154edcc6b77607436c54
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
