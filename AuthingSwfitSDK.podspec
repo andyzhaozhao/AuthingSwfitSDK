@@ -28,7 +28,7 @@ AuthingSwfitSDK. zhaozhao test for https://authing.cn测试没有问题后删除
   s.source           = { :git => 'https://github.com/andy_zhaozhao@hotmail.com/AuthingSwfitSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'AuthingSwfitSDK/Classes/**/*'
   
