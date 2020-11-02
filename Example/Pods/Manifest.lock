@@ -1,5 +1,8 @@
 PODS:
-  - AuthingSwfitSDK (0.1.0)
+  - Alamofire (5.3.0)
+  - AuthingSwfitSDK (0.1.0):
+    - Alamofire
+    - SwiftyRSA
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -12,6 +15,9 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
   - Quick (1.2.0)
+  - SwiftyRSA (1.6.0):
+    - SwiftyRSA/ObjC (= 1.6.0)
+  - SwiftyRSA/ObjC (1.6.0)
 
 DEPENDENCIES:
   - AuthingSwfitSDK (from `../`)
@@ -22,21 +28,25 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - FBSnapshotTestCase
     - Nimble
     - Nimble-Snapshots
     - Quick
+    - SwiftyRSA
 
 EXTERNAL SOURCES:
   AuthingSwfitSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AuthingSwfitSDK: 6d55767e6c1483e9986b154edcc6b77607436c54
+  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
+  AuthingSwfitSDK: 9c0aae1bd252cce9117a03e901fb6eb73522c12c
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SwiftyRSA: 3b9c9179744217951facc6a3e9ae8d8c97061ffa
 
 PODFILE CHECKSUM: e8e80438ae484d3c379169358f2eb1bb9c675602
 

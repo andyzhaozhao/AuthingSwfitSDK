@@ -13,12 +13,20 @@
     "andy_zhaozhao@hotmail.com": "andy_zhaozhao@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/andy_zhaozhao@hotmail.com/AuthingSwfitSDK.git",
+    "git": "https://github.com/andyzhaozhao/AuthingSwfitSDK.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.0"
   },
   "source_files": "AuthingSwfitSDK/Classes/**/*",
+  "dependencies": {
+    "SwiftyRSA": [
+
+    ],
+    "Alamofire": [
+
+    ]
+  },
   "swift_version": "5.3"
 }

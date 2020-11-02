@@ -11,10 +11,30 @@ import AuthingSwfitSDK
 
 class ViewController: UIViewController {
 
-    let authingClient = AuthingClient()
+    let authenticationClient = AuthenticationClient(userPoolId: "5f8d2827feaa6e31598fda94")
     override func viewDidLoad() {
         super.viewDidLoad()
-//        authingClient.
+        
+        let input:LoginByUsernameInput=LoginByUsernameInput(username: "test", password: "test")
+        self.authenticationClient.loginByUsername(input: input){ result in
+            switch result {
+            case let .success(data):
+                print("get code \(data)")
+            case let .failure(error):
+                print("get code \(error)")
+            }
+        }
+        
+//        self.authenticationClient.logout()
+        
+//                    let rinput:RegisterByUsernameInput=RegisterByUsernameInput(username: "test2", password: "test2")
+//                    self.authenticationClient.registerByUsername(input: rinput)
+        
+//                    self.authenticationClient.sendSmsCode(phone: "18311302182")
+//                    let code="1955"
+//                    let lBPC:LoginByPhoneCodeInput = LoginByPhoneCodeInput(phone:"18311302182",code:code)
+//                    self.authenticationClient.loginByPhoneCode(input: lBPC)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
